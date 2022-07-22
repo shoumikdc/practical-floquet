@@ -1,5 +1,5 @@
 # Practical Floquet Theory
-Tools, tips, and tricks for numerically simulating periodically-driven quantum systems using Floquet theory. For more details, please refer to the [notes](https://drive.google.com/drive/folders/13KFdqEYV_USliVJZTkE3Ii6wOhVC7Dug?usp=sharing) accompanying this tutorial. 
+Tools, tips, and tricks for numerically simulating periodically-driven quantum systems using Floquet theory. For more details, please refer to the [notes](https://drive.google.com/drive/folders/1dp3FaByU1iY38Za1x4lQacvOHZxoJOJe?usp=sharing) accompanying this tutorial. 
 
 Driven nonlinear systems are ubiquitous throughout physics, and can result in a rich set of dynamical phenomena that are absent in the static case. Within superconducting qubits and circuit QED, we are often interested in understanding the effects that arise when we drive given nonlinear circuit element --- for example, the ac Stark shift or the renormalization of system nonlinearities. More generally, drives can be thought of as a powerful control knob in the cQED toolbox that allow for in-situ modification of the system Hamiltonian. Some exciting examples of recent use cases in the field include dynamical sweet spot engineering, microwave-activated 2Q gates, and realizing Kerr cat qubits, among many others.
 
@@ -18,12 +18,12 @@ Note: the simulation notebooks here can also be found on [Deepnote](https://deep
 
 ## Setup
 The only dependencies needed to run the code in this repo are `qutip`, `numpy`, and `matplotlib`. As such, if you have these installed, you should be good to go. Simply clone the repository via:
-```
+```bash
 $ git clone git@github.com:shoumikdc/practical-floquet.git
 $ cd practical-floquet
 ```
 If you are a `conda` user, you can install the requirements above directly to your environment by running `conda install qutip` and so on. Alternatively, use the provided requirements file:
-```
+```bash
 $ conda install pip
 $ pip install -r requirements.txt
 ```
